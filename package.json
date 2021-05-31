@@ -1,0 +1,16 @@
+{
+  "name": "yarnw",
+  "version": "1.0.0",
+  "description": "Runs yarn from workspace root",
+  "main": "yarnw.js",
+  "bin": {
+    "yarnw": "./yarnw.js"
+  },
+  "repository": "https://github.com/dnchattan/yarnw.git",
+  "author": "Daniel Chattan <dnchattan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "find-yarn-workspace-root": "^2.0.0",
+    "resolve-global": "^1.0.0"
+  }
+}
